@@ -1,18 +1,15 @@
 .grass {
   background-color: green;
-  height: 200px;
-  border: 1px solid black;
+  height: 30vh;
 }
 
 .road1 {
   background-color: gray;
-  border: 1px solid black;
 }
 
 .road2 {
   background-color: gray;
-  height: 150px;
-  border: 1px solid black;
+  height: 20vh;
 }
 
 .traffic {
@@ -35,6 +32,7 @@
 /* Horizontal Traffic Light */
 .traffic-light.inline {
   width: 158px;
+  height: 54px;
 }
 
 .traffic-light.inline span {
@@ -68,4 +66,34 @@ div.road2 {
 }
 .go {
   background-color: #43c532;
+}
+
+#green1,
+#yellow1,
+#red1 {
+  display: block;
+}
+
+.lane1 {
+  border-bottom: 7px dashed white;
+}
+
+.lane2 {
+  border-right: 7px dashed white;
+}
+
+.bottom-border {
+  border-bottom: 15px dashed white;
+}
+
+.lane-top {
+  border-top: 15px dashed white;
+}
+
+.lane-left {
+  border-left: 15px dashed white;
+}
+
+.lane-right {
+  border-right: 15px dashed white;
 }
